@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           google:
-            clientId: 82223007744-ug5i04cjrs234n9lchusflspatb44jtu.apps.googleusercontent.com
-            clientSecret: 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
+            clientId: 130350250523-6iorqmbgvnc20hjpll7iirb642qgmnbh.apps.googleusercontent.com
+            clientSecret: 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
             scope: openid,profile,email,https://www.googleapis.com/auth/youtube
 
 logging:
