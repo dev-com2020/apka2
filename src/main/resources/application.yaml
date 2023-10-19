@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 82223007744-ug5i04cjrs234n9lchusflspatb44jtu.apps.googleusercontent.com
+            clientSecret: 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
+            scope: openid,profile,email,https://www.googleapis.com/auth/youtube
+
+logging:
+  level:
+    com.example.apka2: DEBUG
+    org.springframework.security: TRACE
+    org.springframework.web: TRACE
+    org.springframework.web.reactive: TRACE
