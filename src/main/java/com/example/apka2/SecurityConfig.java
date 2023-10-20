@@ -21,6 +21,7 @@ public class SecurityConfig {
                         .authorizationCode()
                         .refreshToken()
                         .clientCredentials()
+                        .password()
                         .build();
         DefaultOAuth2AuthorizedClientManager clientManager =
                 new DefaultOAuth2AuthorizedClientManager(
